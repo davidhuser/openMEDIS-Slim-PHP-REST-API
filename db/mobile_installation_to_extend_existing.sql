@@ -1,0 +1,3 @@
+-- IMPORT THIS FILE WHEN EXTENDING EXISTING OPENMEDIS APPLICATIONS WITH REST INTERFACE.
+-- add public and private key fields in login table
+ALTER TABLE `login` ADD `public_key` CHAR(64) NULL DEFAULT NULL , ADD `private_key` CHAR(64) NULL DEFAULT NULL ;

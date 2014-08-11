@@ -1,0 +1,8 @@
+class_name: ApiTester
+modules:
+    enabled: [PhpBrowser, REST, ApiHelper, Db]
+    config:
+      PhpBrowser:
+          url: http://openmedis.davidhuser.ch/api/
+      REST:
+          url: http://openmedis.davidhuser.ch/api/public/v1/
